@@ -56,7 +56,7 @@ def login():
 
  
 @app.route('/')
-@token_required
+# @token_required
 def Index():
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     s = "SELECT * FROM students"
