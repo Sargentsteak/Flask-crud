@@ -10,7 +10,7 @@ import jwt
 from functools import wraps
  
 app = Flask(__name__)
-app.secret_key = "cairocoders-ednalan"
+
 
 app.config['SECRET_KEY'] = 'thisisthesecretkey'
  
@@ -117,5 +117,4 @@ def delete_student(id):
 if __name__ == "__main__":
     app.run(debug=True)
 
-    
-# </string:id></id></id>
+   
